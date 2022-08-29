@@ -1,0 +1,527 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//Vereables
+$linksColor: #000000;
+$section1Title: #FF8A56;
+$section1Text: #666666;
+$firstTextCards21: #B16CEA;
+$blackRowTitle1: #FFA84B;
+$productDesignerText1: #FF5E69;
+$testimonialsSectionText1: #4353FF;
+
+
+//Containers
+
+.container {
+
+    //Header section 
+    .row {
+
+        //header
+
+        header {
+            margin-top: 44px;
+
+            //links
+
+            .links {
+                margin-left: 500px;
+                margin-top: -20px;
+
+                a {
+                    text-decoration: none;
+                    color: $linksColor;
+                    font-size: 16px;
+                    margin-left: 50px;
+                }
+            }
+        }
+
+
+
+        .the-first-section {
+            .section1 {
+                .section1-title {
+                    font-size: 62px;
+                    margin-top: 80px;
+                    font-weight: 700;
+                    margin-left: -13px;
+                    color: $section1Title;
+                }
+
+                .section1-title1 {
+                    font-size: 62px;
+                    font-weight: 700;
+                    margin-left: -13px;
+
+                }
+
+                .section1-text {
+                    font-size: 20px;
+                    margin-left: -13px;
+                    font-weight: 400;
+                    margin-top: 34px;
+                    color: $section1Text;
+                }
+
+
+                //BTNS
+
+                .btns1 {
+                    background-color: $linksColor;
+                    padding: 10px;
+                    color: white;
+                    text-decoration: none;
+                    margin-left: -13px;
+                    margin-top: 20px;
+                    position: absolute;
+
+                    &:hover {
+                        transition: 1s;
+                        box-shadow: 0 0 50px $section1Title;
+                    }
+                }
+
+                .btns2 {
+                    padding: 10px;
+                    color: $linksColor;
+                    text-decoration: none;
+                    margin-left: 103px;
+                    margin-top: 20px;
+                    position: absolute;
+
+                    &:hover {
+                        transition: 1s;
+                        text-shadow: 0 0 150px $section1Title;
+                    }
+                }
+            }
+
+            .section2 {
+                .section2-img {
+                    width: 450px;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+
+    //  Header section 
+
+
+
+    // section Trusted by
+
+
+    .row {
+        .section-Trusted-by-text {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .section-Trusted-by-img {
+            margin-top: 50px;
+            position: absolute;
+            margin-left: 150px;
+        }
+
+        .section-Trusted-by-text2 {
+            font-size: 22px;
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        .section-Trusted-by-text3 {
+            font-size: 54px;
+            text-align: center;
+            margin-top: 200px;
+            font-weight: 700;
+        }
+    }
+
+
+    // section Trusted by
+
+
+
+
+    // first text cards (2)
+
+
+    .row {
+        .first-text-cards21 {
+            font-size: 22px;
+            color: $firstTextCards21;
+        }
+
+        .first-text-cards22 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .first-text-cards23 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .first-text-cards24 {
+            text-decoration: none;
+            background-color: $linksColor;
+            padding: 15px;
+            color: white;
+            position: absolute;
+            margin-left: 950px;
+            margin-top: -130px;
+        }
+    }
+
+
+    // first text cards (2)
+
+
+
+
+
+    //black row
+
+
+    .row {
+        .glyphicon-chevron-left {
+            color: black;
+            margin-top: 170px;
+            background-color: white;
+            padding: 15px;
+            margin-left: 530px;
+
+        }
+
+        .glyphicon-chevron-right {
+            color: black;
+            margin-top: 170px;
+            background-color: white;
+            padding: 15px;
+
+        }
+
+
+        //black-row-title (1)
+
+        .black-row-title {
+            .black-row-title1 {
+                font-size: 22px;
+                font-weight: 700;
+                color: $blackRowTitle1;
+                margin-left: 80px;
+            }
+
+            .black-row-title2 {
+                font-size: 50px;
+                font-weight: 700;
+                color: white;
+                margin-left: 80px;
+            }
+
+            .black-row-link {
+                font-size: 18px;
+                font-weight: 700;
+                text-decoration: none;
+                color: white;
+                margin-left: 80px;
+            }
+        }
+
+        //black-row-title (1)
+
+
+        //black-row-title (2)
+
+        .black-row-title2 {
+            .black-row-title21 {
+                font-size: 15px;
+                font-weight: 700;
+                color: #ffffff93;
+            }
+
+            .black-row-title22 {
+                font-size: 28px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+
+            .black-row-link23 {
+                font-size: 18px;
+                font-weight: 700;
+                text-decoration: none;
+                color: white;
+                margin-top: 20px;
+            }
+
+            .black-row-hr {
+                width: 610px;
+                height: 1px;
+                background-color: white;
+            }
+        }
+
+        //black-row-title (2)
+    }
+
+
+    //black row
+
+
+    .row {
+        .product-designer1 {
+            .product-designer-text1 {
+                font-size: 22px;
+                font-weight: 700;
+                color: $productDesignerText1;
+            }
+
+            .product-designer-text2 {
+                font-size: 54px;
+                font-weight: 700;
+            }
+        }
+
+        .product-designer1 {
+            .product-designer-text-text {
+                font-size: 22px;
+                font-weight: 400;
+                color: #666666;
+
+            }
+        }
+
+        // images
+
+        .product-designe-img1 {
+            height: 600px;
+            position: absolute;
+            margin-left: -1170px;
+            margin-top: 200px;
+        }
+
+        .product-designe-img2 {
+            height: 600px;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: -830px;
+        }
+
+        .product-designe-img3 {
+            height: 290px;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: -330px;
+        }
+
+        .product-designe-img4 {
+            height: 290px;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: -330px;
+            margin-top: 510px;
+        }
+
+        // images
+    }
+
+
+
+
+    // Education and Work
+
+
+    .row {
+        .education-and-work1 {
+            .education-and-work-text1 {
+                font-size: 36px;
+                font-weight: 400;
+            }
+
+            .education-and-work-text12 {
+                font-size: 24px;
+                font-weight: 700;
+                margin-top: 100px;
+            }
+
+            .education-and-work-text13 {
+                font-size: 16px;
+                color: #00000098;
+            }
+        }
+
+        .education-and-work2 {
+            .education-and-work-text11 {
+                font-size: 36px;
+                font-weight: 400;
+
+            }
+
+            .education-and-work-text121 {
+                font-size: 24px;
+                font-weight: 700;
+                margin-top: 100px;
+                margin-left: 80px;
+            }
+
+            .education-and-work-text131 {
+                font-size: 16px;
+                color: #00000098;
+                margin-left: 80px;
+            }
+        }
+
+        .education-and-work2 {
+            .education-and-work-text2 {
+                font-size: 36px;
+                font-weight: 400;
+            }
+        }
+    }
+
+
+    // Education and Work
+
+
+
+
+
+
+    //Testimonials section
+
+
+
+    .row {
+        .testimonials-section1 {
+            .testimonials-section-text1 {
+                font-size: 22px;
+                font-weight: 700;
+                color: $testimonialsSectionText1;
+            }
+
+            .testimonials-section-text2 {
+                font-size: 50px;
+                font-weight: 700;
+            }
+
+            .testimonials-section-img {
+                margin-top: 85px;
+            }
+        }
+
+        .testimonials-section2 {
+            .testimonials-section2-img {
+                margin-top: 250px;
+            }
+
+            .testimonials-section2-text {
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            .testimonials-section2-text11 {
+                margin-top: 160px;
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            .testimonials-section2-text22 {
+                font-weight: 400;
+                font-size: 18px;
+            }
+        }
+    }
+
+
+
+    //Testimonials section
+
+
+
+
+    //Frequently asked questions
+
+
+    .row {
+        .frequently-asked-questions {
+            .frequently-asked-questions-text1 {
+                font-size: 24px;
+                margin-left: 80px;
+                font-weight: 700;
+                color: white;
+            }
+        }
+
+        .frequently-asked-questions2 {
+            .frequently-asked-questions-text2 {
+                font-size: 24px;
+                font-weight: 700;
+                color: white;
+                margin-left: 50px;
+
+
+
+            }
+        }
+    }
+
+
+    //Frequently asked questions
+}
+
+
+
+
+
+// Media Querist
+
+
+//Laptop 1024px
+
+
+
+@media (max-width: 1024px) {
+    .container{
+        .row{
+            header{
+                .links{
+                    margin-left: 350px;
+                }
+            }
+            .the-first-section{
+                display: flex;
+                .section1 {
+                    .section1-title{
+                        font-size: 50px;
+                    }
+                    .section1-title1{
+                        font-size: 50px;
+                        margin-top: 70px;
+                    }
+                    .section1-text{
+                        font-size: 18px;
+                        margin-top: 30px;
+                    }
+                }
+                .section2{
+                    .section2-img{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//Laptop 1024px
+
+
+// Media Querist
